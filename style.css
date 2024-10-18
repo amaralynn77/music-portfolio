@@ -1,0 +1,175 @@
+@font-face{
+    font-family: JejuMyeongjo;
+    src: url(JejuMyeongjo-Regular.ttf);
+}
+
+.backgroundimage{
+    background-image: url("");
+    background-color: #202020;
+    width: 100vw;
+    height:100vh;
+    position: fixed;
+    z-index: -3;
+}
+
+.profileimage{
+    background-image: url("avatar.png");
+    width: 360px;
+    height: 360px;
+    margin-left: 23%;
+    max-width: 100%;
+    max-height:100%;
+}
+
+.sparkles{
+    background-image: url("sparkle-cloud.gif");
+    position: absolute;
+    width: 100vw;
+    height:100vh;   
+    transform: translateZ(-10px);
+    z-index: -4;
+}
+
+.listening-btn-group{
+    width: 100vw; 
+    display: flex;
+    justify-content: center;
+    gap: 11.5%;
+    z-index: -1;
+    margin-top:2%;
+}
+.listening-btn-group button{    
+    font-family: JejuMyeongjo;
+    z-index: -2;
+
+}
+
+
+.rectangle {
+    width: 60%;
+    height:100vh;
+    justify-content: space-around;
+    left: 20%;
+    display: flex;
+    background-color: #A0A0A0;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    
+}
+
+.btn-group{
+    position: absolute;
+    width: 100%;
+    align-items: center;
+    top:0;
+    font-size: 1.2em;
+    margin-bottom: 15%;
+}
+
+.theme-btn-group {
+    display: flex;
+    height: 100px;  
+    width: 100vw; 
+    gap: 10%;
+    justify-content: center;
+    
+}
+
+.theme-btn-group button {
+    color: #A0A0A0;
+    padding: 34px 10px;
+    cursor: pointer;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    margin-top: 2%;
+    float: left;
+    font-family: JejuMyeongjo;
+}
+
+.follow-btn-group {
+    display: flex;
+    height: 100px;  
+    width: 100vw; 
+    justify-content: center;
+    top: 100px;
+    gap: 50px;
+}
+
+.follow-btn-group button {
+    color: white;
+    padding: 34px 34px;
+    cursor: pointer;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    margin-top: 500px;
+    font-family: JejuMyeongjo;
+    transform: scale(0.1, 0.1);
+}
+
+.theme-btn-group button:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+.btn-group button {
+    background-color: #606060;
+    border:1px salmon;
+    color: white;
+    padding: 15px 0px;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    float: left;
+    font-family: JejuMyeongjo;
+    font-size: 40px;
+}
+
+.btn-group button:not(:last-child){
+    border-right: none;
+}
+
+.btn-group::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.btn-group button:hover {
+    background-color:blanchedalmond ;
+    color: black;
+}
+
+
+h1 {
+    font-family: JejuMyeongjo;
+    color: rgb(255, 255, 255)    ;
+    font-size:xx-large;
+    word-wrap: break-word;
+        margin-top: 60px;
+    word-wrap: break-word;
+    text-align: center;
+    z-index: 999999999;
+  }
+
+.container{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    margin-left: 270px;
+}
+
+p {
+    margin-left: 120px;
+    font-family: JejuMyeongjo;
+    font-size: larger;
+    color:white;
+}
+
+  .spacer {
+    height: 10000px;
+  }
